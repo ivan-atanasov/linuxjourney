@@ -1,0 +1,55 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+en:
+  menu:
+    languages:
+      lang: "Language"
+      flag: "flags/Bulgaria.png"
+  home:
+    tagline: 
+      title: "Научете основите на Линукс от Linux-fu, безплатно."
+    subscribe:
+      title: "Абонирай се"
+      body: "Получавайте новини за нови курсове и уроци!"
+    about:
+      title: "За нас"
+      body: "Знанието натрупано тук днес е задвижено изцяло от опен-сорс общността."
+      url_name: "Допринесяне и сътрудничество"
+      url: "https://github.com/cindyq/linuxjourney"
+    contact:
+      title: "Свържете се с нас"
+      body: "Намерили сте бъг? Имате оплакване? Просто искате да ни пишете?"
+      url_name: "Информирай ни"
+      url: "contact@linuxjourney.com"
+  courses:
+    titles:
+      exercises: "Упражнения"
+      quiz: "Тест"
+  forms:
+    buttons:
+      check_answer: "Провери отгорова"
+      continue: "Продължи"
+      return: "Върни се на главното меню"
+      home: "Начало"
+    messages:
+      answer_correct: "Правилен отговор!"
+      answer_incorrect: "Не точно, опитай пак"
